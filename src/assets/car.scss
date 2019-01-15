@@ -1,0 +1,155 @@
+.box{
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    .top{
+        width: 100%;
+        height: 1.173333rem;
+        text-align: center;
+        line-height: 1.173333rem;
+        color: #333333;
+        font-size: .373333rem;
+    }
+    .content{
+        width: 100%;
+        height: 7.733333rem;
+        background-color: rgb(250, 250, 250);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        .img{
+            width: 3.5rem;
+            height: 2.146667rem;
+            margin-top: 2.666667rem;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .like{
+        width: 100%;
+        height: .853333rem;
+        overflow: hidden;
+        .left{
+            width: 3.1rem;
+            height: .013333rem;
+            background-color: #333333;
+            float: left;
+            margin-top: .38rem;
+            margin-left: .6rem;
+        }
+        img{
+            width: 2rem;
+            height: .4rem;
+            margin-left: 3.9rem;
+            margin-top: .2rem;
+        }
+        .right{
+            width: 3.1rem;
+            height: .013333rem;
+            background-color: #333333;
+            float: right;
+            margin-top: -.24rem;
+            margin-right: .6rem;
+        }
+    }
+    .main{
+        width: 100%;
+        height: 13.6rem;
+        margin-bottom: 3rem;
+        .dl_left{
+            width: 4rem;
+            height: 6.373333rem;
+            border:1px solid #ccc;
+            display: block;
+            margin-left: .64rem;
+            margin-top: .2rem;
+            float: left;
+            .img{
+                width: 4rem;
+                height: 4rem;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .introduction{
+                width: 100%;
+                height: 2.466667rem;
+                overflow: hidden;
+                .divName{
+                    font-size: .32rem;
+                    margin-top: .3rem;
+                    margin-left: .2rem;
+                }
+                .divBrand{
+                    font-size: .32rem;
+                    margin-top: .2rem;
+                    margin-left: .2rem;
+                }
+                .divPrice{
+                    font-size: .3rem;
+                    margin-top: .1rem;
+                    margin-left: .1rem;
+                    color: royalblue;
+                }
+            }
+        }
+    }
+    .result{
+        width: 100%;
+        height: 1.44rem;
+        position: fixed;
+        bottom: 1.2rem;
+        background-color: #fff;
+        .election{
+            margin-left: .3rem;
+            input{
+                width: .4rem;
+                height: .4rem;
+                margin-top: .56rem;
+                margin-left: .373333rem;
+                float: left;
+                outline: none;
+                border: none;
+            }
+            span{
+                width: 1.7rem;
+                height: .32rem;
+                margin-top: .573333rem;
+                margin-left: .266667rem;
+                font-size: .4rem;
+                float: left;
+            }
+        }
+        .price_all{
+            width: 3.493333rem;
+            height: 1.44rem;
+            margin-top: 0rem;
+            margin-left: 0rem;
+            float: left;
+            background: #ffffff;
+            p:nth-of-type(1){
+                float: right;
+                font-size: .5rem;
+                margin-top: .45rem;
+            }
+            p:nth-of-type(2){
+                float: right;
+                font-size: .42rem;
+            }
+        }
+        button{
+            float: left;
+            width: 2.8rem;
+            height: 1.45rem;
+            font-size: .5rem;
+            margin-left: .1rem;
+            border: none;
+            outline: none;
+            background-color: #000;
+            color: #fff;
+        }
+    }
+}

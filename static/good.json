@@ -1,0 +1,9 @@
+{
+    "code": 200,
+    "msg": "你请求成功了",
+    "data": {
+        "imgUrl": "http://imgs-qn.iliangcang.com/ware/sowhatimg/ware/orig/2/30/30860.png",
+        "activeId": "1",
+        "url": "https://www.taobao.com/"
+    }
+}
